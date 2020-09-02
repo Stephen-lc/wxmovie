@@ -1,0 +1,52 @@
+
+.main {
+	padding: 20px;
+}
+.content>view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 20px;
+}
+.left {
+	width: 100px;
+	height: 150px;
+	border: 1px solid #eee;
+}
+.left>image {
+	width: 100px;
+	height: 150px;
+}
+.right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.right_text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.right_text>text:first-child {
+	font-weight: bold;
+	font-size: 20px;
+}
+.right_text>text:last-child {
+	color: #B37188;
+	font-size: 12px;
+}
+
